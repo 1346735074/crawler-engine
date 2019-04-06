@@ -1,5 +1,6 @@
 package com.crawler.demo;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -8,6 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @version 1.0
  * @date 2019-04-06
  */
+@Slf4j
 @SpringBootApplication
 public class SpringBootApp {
 
